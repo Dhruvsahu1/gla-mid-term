@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+header {
+    
+    background: white;
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(37, 10, 10) 3px solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+header ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header li a {
+    transition: color 0.3s ease;
+}
+
+header li a:hover {
+    color: #fbb03b;
+}
+
+.hero {
+    background: url('imgq2.avif') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .highlight {
+    color: #fbb03b;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #fbb03b;
+    color: black;
+    border-radius: 25px;
+}
+
+.btn.primary :hover{
+    background-color: white; 
+     color: black;
+}
+
+.btn.secondary {
+    background-color: white;
+    color: #fbb03b;
+    border: 2px solid #fbb03b;
+    border-radius: 25px;
+}
+.btn.secondary{
+    background-color: fbb03b; 
+    color: black
+}
+
+.services {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.services .text {
+    max-width: 50%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services .highlight {
+    color: #fbb03b;
+}
+
+.services img {
+    width: 40%;
+    border-radius: 10px;
+}
+.hero1 {
+    background: url('imag4.avif') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero1 h1{
+    
+        font-size: 48px;
+        margin-bottom: 20px;
+}
+.hero.work {
+    color: #fbb03b;
+}
+
+.team {
+    padding: 50px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.form-container {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h1 span {
+    color: #ffd700;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    background-color: #ffd700;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+}
+
+.contact-details a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details span {
+    font-size: 1.5em;
+    color: #ffd700;
+}   
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
